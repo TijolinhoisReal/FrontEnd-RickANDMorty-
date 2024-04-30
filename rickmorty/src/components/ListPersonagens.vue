@@ -3,10 +3,10 @@
 </script>
 
 <template>
-    <div class="col-md-4">
+    <div class="col-md-3  d-flex">
         <div class="card mb-3 p-2">
             <!-- <p class="text-center">{{ personagem.name }}</p>  -->
-            <img :src="personagem.image" class="card-img-top" height="60%" alt="..."> 
+            <img :src="personagem.image" class="card-img-top" height="300" alt="..."> 
             <div class="card-body">
                 <p class="card-title text-center">Nome: {{ personagem.name }}</p>
                 <p class="card-title text-center">Status: {{ personagem.status }}</p>
@@ -18,7 +18,3 @@
         </div>
     </div>
 </template>
-
-<style>
-
-</style>
